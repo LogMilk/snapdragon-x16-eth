@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LTE 开关</string>
+    <string name="tile_label">LTE</string>
+    <string name="subtitle">Surface Snapdragon X16 · Android 以太网模式</string>
+
+    <string name="f_root">Root 权限</string>
+    <string name="f_modem">调制解调器</string>
+    <string name="f_wdm">控制节点</string>
+    <string name="f_net">数据网卡</string>
+    <string name="f_eth">以太网接口</string>
+    <string name="f_wifi">Wi‑Fi</string>
+    <string name="f_default">默认接口</string>
+    <string name="f_wlan_ip">WLAN 地址</string>
+    <string name="f_wwan_ip">WWAN 地址</string>
+    <string name="f_apn">APN</string>
+
+    <string name="root_granted">已授权 (uid=0)</string>
+    <string name="root_denied">未授权: %1$s</string>
+    <string name="st_connected">已连接</string>
+    <string name="st_disconnected">未连接</string>
+
+    <string name="sec_signal">信号</string>
+    <string name="signal_reading">读取中…</string>
+    <string name="signal_none">无信号信息</string>
+    <string name="sig_op">运营商: %1$s</string>
+    <string name="sig_reg">注册: %1$s</string>
+
+    <string name="sec_settings">设置</string>
+    <string name="apn_hint">APN</string>
+    <string name="save_apn">保存 APN</string>
+    <string name="apn_saved">已保存 APN</string>
+    <string name="validate">把系统校验地址改为国内可达（改善“无网络”提示）</string>
+    <string name="lte_toggle">启用 LTE（关闭 Wi‑Fi，改用蜂窝以太网）</string>
+    <string name="refresh">刷新信息</string>
+
+    <string name="busy_on">启用 LTE…</string>
+    <string name="busy_off">切回 Wi‑Fi…</string>
+    <string name="title_idle">LTE 开关</string>
+
+    <string name="tile_off">未启用</string>
+    <string name="tile_wait">请稍候</string>
+    <string name="tile_reading">读取中…</string>
+    <string name="tile_fail">解包失败</string>
+    <string name="tile_enabled">已启用</string>
+    <string name="tile_pct">LTE %1$d%%</string>
+</resources>

@@ -1,0 +1,25 @@
+# ---- build output ----
+/out/
+*.apk
+*.apks
+*.idsig
+*.unaligned.*
+
+# ---- signing ----
+*.keystore
+*.jks
+*.p12
+*.pk8
+*.pem
+
+# ---- local / OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+tile.log
+
+# ---- note ----
+# assets/ (including assets/qmi/ and assets/lte/ethcli.jar) is REQUIRED to build
+# and should stay in the repository. Large binaries live there by design; consider
+# Git LFS if your host limits file sizes.
